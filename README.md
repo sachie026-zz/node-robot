@@ -9,5 +9,6 @@ Performs the following operations:
 - List out all the files
 - Information about total and free memory
 - Creates server
+- You can ask him basic questions which are present in the questions text file  
 
 Note - Just started. work in progress
