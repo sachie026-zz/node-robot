@@ -1,0 +1,29 @@
+Hi 
+Hey
+
+Thanks
+Welcome
+
+Thank you
+Welcome
+
+Thank you so much
+Welcome
+
+Hello 
+Hey
+
+What is your name?
+My name is Nobot
+
+Where are you from?
+I am from Node family
+
+How are you?
+I am fine, what about you
+
+How's going your day?
+My day is going awesome. how about you?
+
+How old are you?
+2 days only

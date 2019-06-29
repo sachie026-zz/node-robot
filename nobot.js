@@ -2,20 +2,11 @@ var stdin = process.openStdin();
 console.log(`Hey, Its Nobot! how may I help you?
 Ask questions in the following format to get the desired result:
 
-<type> : <questions> 
-os : tell me about free memory
 `);
 
-let dict = {
-  name: "Nobot"
-};
-
 var selectedModule = null;
-stdin.addListener("data", function(d) {
-  // note:  d is an object, and when converted to a string it will
-  // end with a linefeed.  so we (rather crudely) account for that
-  // with toString() and then trim()
 
+stdin.addListener("data", function(d) {
   var moduleName = getQuestionKey(d.toString().trim());
   try {
     selectedModule = require("./" + moduleName);
@@ -50,8 +41,4 @@ function getQuestionKey(keys) {
   }
 
   return "general";
-}
-
-function checkQuestion(str) {
-  return dict[getQuestionKey(str)];
 }
